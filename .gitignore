@@ -1,0 +1,9 @@
+.vscode
+obj/*.o
+obj/*.d
+bin/app
+cosole/*.o
+MySimpleComputer/*.o
+myTerm/*.o
+myBigChars/*.o
+myReadkey/*.o
