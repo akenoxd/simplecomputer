@@ -2,6 +2,8 @@
 
 A CPU simulator with an integrated SimpleBasic interpreter. This project simulates a basic computer architecture with memory management, instruction execution, and terminal-based UI.
 
+![screenshot](assets/screenshot.png)
+
 ## Features
 
 - Memory visualization and manipulation
@@ -45,11 +47,10 @@ make
 ## Running
 
 ```bash
-# Run the SimpleComputer simulator
 ./bin/app
+```
 
 ## Project Structure
-
 ```
 simplecomputer/
 ├── console/          # Terminal interface implementation
@@ -68,22 +69,9 @@ simplecomputer/
 ## Technical Details
 
 The simulator implements:
-- 100 memory cells (00-99)
-- 16-bit word size
+- 128 memory cells (RAM)
 - Basic arithmetic operations
 - Conditional and unconditional jumps
 - I/O operations
 - Simple assembly language
 - BASIC language subset
-
-### Memory Layout
-```
-+------------------+
-|    Memory (99)   |
-|        ...       |
-|    Memory (00)   |
-+------------------+
-| Instruction Ptr  |
-| Accumulator      |
-+------------------+
-```
