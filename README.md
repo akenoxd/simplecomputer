@@ -48,10 +48,6 @@ make
 # Run the SimpleComputer simulator
 ./bin/app
 
-# To run with a BASIC program
-./bin/app program.bas
-```
-
 ## Project Structure
 
 ```
@@ -91,25 +87,3 @@ The simulator implements:
 | Accumulator      |
 +------------------+
 ```
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is released under the MIT License. See the LICENSE file for details.
-
-## Author
-
-Created by [Your Name]
-
-This is a pet project developed to explore and understand:
-- Computer architecture principles
-- Assembly language programming
-- Interpreter design
-- Terminal-based UI development
-- Systems programming in C
-
----
-*Last updated: April 2025*
